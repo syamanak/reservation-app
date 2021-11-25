@@ -1,5 +1,8 @@
 {
     "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "cli": {
+      "analytics": "c851be49-7827-41ce-9819-cfa9b1c67cee"
+    },
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
@@ -32,7 +35,10 @@
                         ],
                         "styles": [
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
-                            "src/styles.scss"
+                            "src/styles.scss",
+                            "src/assets/sass/paper-kit.scss",
+                            "src/assets/css/demo.css",
+                            "src/assets/css/nucleo-icons.css"
                         ],
                         "scripts": [
 
@@ -100,7 +106,10 @@
                         ],
                         "styles": [
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
-                            "src/styles.scss"
+                            "src/styles.scss",
+                            "src/assets/sass/paper-kit.scss",
+                            "src/assets/css/demo.css",
+                            "src/assets/css/nucleo-icons.css"
                         ],
                         "scripts": []
 
